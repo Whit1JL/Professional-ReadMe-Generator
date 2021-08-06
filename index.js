@@ -38,7 +38,7 @@ var generate = function (data) {
 
     ## Test
     ${data.test}
-    
+
     ## Questions
     ${data.questions}
     `
@@ -100,7 +100,6 @@ inquirer
     ])
     .then((answers) => {
         // Use user feedback for... whatever!!
-
         // create new function called generate 
         generate(answers);
         // display results
