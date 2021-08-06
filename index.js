@@ -95,7 +95,7 @@ inquirer
         {
             type: "input",
             name: "questions",
-            message: "",
+            message: "If someone has any questions for you, how can they contact you?",
         },
     ])
     .then((answers) => {
