@@ -23,6 +23,16 @@ const questions = [
     },
     {
         type: "input",
+        name: "demo",
+        message: "Provide link to demo video.",
+    },
+    {
+        type: "input",
+        name: "story",
+        message: "Enter the user story for this assignment."
+    },
+    {
+        type: "input",
         name: "installation",
         message: "Provide specific steps needed to install this repository.",
     },

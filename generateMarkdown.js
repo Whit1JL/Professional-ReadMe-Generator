@@ -45,6 +45,12 @@ ${renderLicenseBadge(data.license)}
 ## Description
     ${data.describe}
 
+## Demo Video
+    ${data.demo}
+
+## User Story
+    ${data.story}
+
 ## Installation
     ${data.installation}
 
