@@ -48,6 +48,8 @@ function generateMarkdown(data) {
 # Title
     ${data.title}
 
+${renderLicenseBadge(data.license)} 
+
 
 ## Table of Contents 
   * [Installation](#Installation)
@@ -57,25 +59,30 @@ function generateMarkdown(data) {
   * [Questions](#Questions)
 
 
-${renderLicenseBadge(data.license)}
-
 ## Description
     ${data.describe}
 
 ## Demo Video
-    ${data.demo}
+
+The video file displaying the functionality of the README can be found here: [link] <br/>
+
+    ![Screen Recording](${data.demo})
 
 ## User Story
     ${data.story}
 
 ## Installation
+    \`\`\`
     ${data.installation}
+    \`\`\`
 
 ## Usage
+    \`\`\`
     ${data.usage}
+    \`\`\`
 
 ## License
-    ${data.license}
+    ${renderLicenseSection(data.license)}
 
 ## Contribute
     ${data.contribute}
@@ -87,12 +94,13 @@ ${renderLicenseBadge(data.license)}
     ${data.questions}
 
 ## GitHub
-    ${data.github}
+
+    GitHub: https://github.com/${data.github}
 
 ## Email
-    ${data.email}
-    `
-};
+
+    Email me with any questions, comments or concerns: ${data.email}
+    `;
+}
 
 module.exports = generateMarkdown;
-
