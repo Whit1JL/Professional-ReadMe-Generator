@@ -91,13 +91,8 @@ The video file displaying the functionality of the README can be found here: [li
     ${data.test}
 
 ## Questions
-    ${data.questions}
-
-## GitHub
 
     GitHub: https://github.com/${data.github}
-
-## Email
 
     Email me with any questions, comments or concerns: ${data.email}
     `;
