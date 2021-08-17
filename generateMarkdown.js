@@ -24,7 +24,11 @@ function renderLicenseLink(license) {
     }
     else if (license === "Apache") {
         return `[Apache](https://opensource.org/licenses/Apache-2.0)`
-    } els
+    } else if (license === "ISC") {
+        return `[ISC](https://opensource.org/licenses/ISC)`
+    } else if (license === "Zlib") {
+        return `[Zlib](https://opensource.org/licenses/Zlib)`
+    }
 }
 
 // TODO: Create a function that returns the license section of README
