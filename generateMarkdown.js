@@ -72,14 +72,10 @@ The video file displaying the functionality of the README can be found here: [li
     ${data.story}
 
 ## Installation
-    \`\`\`
     ${data.installation}
-    \`\`\`
 
 ## Usage
-    \`\`\`
     ${data.usage}
-    \`\`\`
 
 ## License
     ${renderLicenseSection(data.license)}
