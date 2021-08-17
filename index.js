@@ -32,6 +32,18 @@ const questions = [
         message: "Enter the user story for this assignment."
     },
     {
+        type: 'input',
+        message: 'Enter first image for the project.',
+        name: 'firstimg',
+        default: ""  
+    },
+    {
+        type: "input",
+        name: "secondimg"
+        message: "Enter second image for the project,"
+        default: "./im"
+    },
+    {
         type: "input",
         name: "installation",
         message: "Provide specific steps needed to install this repository.",
